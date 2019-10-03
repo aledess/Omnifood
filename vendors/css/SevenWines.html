@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SevenWines</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/Grid.css">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/ionicons.css">
+    <link rel="stylesheet" href="SevenWines_files/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/animate.css">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/style.css">
+    <link rel="stylesheet" type="text/css" href="SevenWines_files/queries.css">
+    <link href="SevenWines_files/css.css" rel="stylesheet">
+  </head>
+  <body cz-shortcut-listen="true">
+    <header>
+      <nav>
+        <div class="row">
+          <img src="SevenWines_files/logo-white.html" alt="logo sito" class="logo">
+          <img src="SevenWines_files/logo.html" alt="logo sito" class="logo-black">
+
+          <ul class="main-nav js--main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Le strade</a></li>
+            <li><a href="#">Chi siamo</a></li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon"><i class="ion-ios-menu"></i></a>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>
+          Sette vini, sette strade <br>
+          Migliaia di esperienze.
+        </h1>
+        <a class="btn btn-full js--scroll-to-plans" href="#">Scopri di più</a>
+      </div>
+    </header>
+
+    <section id="#" class="section-chi-siamo">
+      <div class="row">
+        <h2>Le sette strade del vino</h2>
+        <p class="long-copy">
+          Le ‘Strade del vino’, itinerari creati per offrire gite, visite, soste
+          e degustazioni della gastronomia sarda e del suo vino
+        </p>
+      </div>
+
+      <div class="row js--wp-1">
+        <div class="col span-1-of-4 box">
+                <i class="fas fa-wine-glass-alt fa-3x"></i>
+          <h3>Enogastronomia</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+            voluptatibus omnis inventore itaque odit eum dolorem natus error!
+            Minima officia culpa quas architecto dignissimos repellendus
+          </p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="icon ion-ios-stopwatch icon-big"></i>
+          <h3>Storia e cultura</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+            voluptatibus omnis inventore itaque odit eum dolorem natus error!
+            Minima officia culpa quas architecto dignissimos repellendus
+          </p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="icon ion-ios-nutrition icon-big"></i>
+          <h3>Natura e paesaggi</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+            voluptatibus omnis inventore itaque odit eum dolorem natus error!
+            Minima officia culpa quas architecto dignissimos repellendus
+          </p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="icon ion-ios-cart icon-big"></i>
+          <h3>Viabilità</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+            voluptatibus omnis inventore itaque odit eum dolorem natus error!
+            Minima officia culpa quas architecto dignissimos repellendus
+          </p>
+        </div>
+      </div>
+    </section>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
